@@ -1,0 +1,10 @@
+:root { --bg:#0b0f14; --card:#10161d; --fg:#e6eef6; --muted:#9bb0c3; --accent:#5eead4; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, Arial, sans-serif; background: var(--bg); color: var(--fg); }
+.container { max-width: 980px; margin: 0 auto; padding: 24px; }
+.card { background: var(--card); border: 1px solid #15202b; border-radius: 12px; padding: 16px; }
+.row { display: flex; gap: 12px; }
+input, textarea { width: 100%; padding: 12px; border-radius: 8px; border: 1px solid #1f2a37; background:#0f141a; color: var(--fg); }
+button { background: var(--accent); color:#07353a; border: none; padding: 10px 14px; border-radius: 8px; cursor: pointer; font-weight: 700; }
+small { color: var(--muted); }
+a { color: #7dd3fc; }
